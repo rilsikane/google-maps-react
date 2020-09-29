@@ -31,7 +31,7 @@ type Style = Object<string, string | number | boolean>
 export interface IMapProps extends google.maps.MapOptions {
   google: GoogleAPI
   loaded?: boolean
-
+  zoom?:number
   style?: Style
   containerStyle?: Style
 
